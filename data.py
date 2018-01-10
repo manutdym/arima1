@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 31 14:13:58 2017
-@author: 竹间为简
-@published in: 简书
-"""
+# -*- coding: utf-8 -*-=
 
 import pandas as pd
 from statsmodels.tsa.stattools import adfuller
