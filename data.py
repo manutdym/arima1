@@ -92,7 +92,7 @@ def run_aram(df, maxar, maxma, test_size = 14):
     test_predict = predict_recover(test_predict, train, diffn)
 
 
-    print(np.sqrt((sum((np.array(test_predict['diff'])-np.array(test))**2))/test_size))
+    #print(np.sqrt((sum((np.array(test_predict['diff'])-np.array(test))**2))/test_size))
     RMSE = np.sqrt((np.mean(np.array(test_predict['diff'])-np.array(test))**2))
     print("测试集的RMSE为："+str(RMSE))
 
